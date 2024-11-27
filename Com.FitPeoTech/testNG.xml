@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+     
+      <class name="FitPeo_Revenue_Calculator.FitPeo_Revenue_Calculator_Validation">
+        <methods>
+        <include name="Navigate_to_the_FitPeo_Homepage" />
+        <include name="Navigate_to_Revenue_Calculator_Page" />
+        <include name="Scroll_Down_to_the_Slider_section" />
+        <include name="Adjust_the_Slider" />
+        <include name="Update_the_Text_Field" />
+        <include name="Validate_Slider_Value" />
+        <include name="Select_CPT_Codes" />
+        <include name="Validate_Total_Recurring_Reimbursement" />
+        <include name="Shows_the_value" />
+        
+      </methods> </class>
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
