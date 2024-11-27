@@ -32,7 +32,6 @@ public  void Navigate_to_the_FitPeo_Homepage() {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().window().maximize();
 			driver.get(constant_Values.HomepageUrl);
-			System.out.println("hello homepage");
 		
 	  
 	  
